@@ -1,0 +1,87 @@
+/* Backgrounds */
+.home-bg {
+    background: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+    height: 100vh;
+}
+
+/* Header */
+.header {
+    background: rgba(0,0,0,0.7);
+    padding: 15px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+
+.btn {
+    padding: 10px 25px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn-secondary {
+    background: #ff6347;
+}
+
+/* Reservation form */
+.reservation-form input, .reservation-form button {
+    padding: 12px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Menu */
+.menu-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.menu-item button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background: #ff6347;
+}

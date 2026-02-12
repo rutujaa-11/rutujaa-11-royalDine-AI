@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Royal Dine</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .home-bg {
+            background: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+            text-shadow: 1px 1px 4px black;
+        }
+        .home-bg h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 20px;
+            background: orange;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <div class="home-bg">
+        <h1>🍽️ Royal Dine Restaurant</h1>
+        <button class="btn" onclick="openChat()">Book Table Now</button>
+    </div>
+
+    <script>
+        function openChat() {
+            window.location.href = "chat.html";
+        }
+    </script>
+</body>
+</html>

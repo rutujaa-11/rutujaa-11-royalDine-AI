@@ -1,0 +1,22 @@
+[
+  {
+    "reservation_id": 1,
+    "item": "Pancakes",
+    "price": 100
+  },
+  {
+    "reservation_id": 1,
+    "item": "Coffee",
+    "price": 50
+  },
+  {
+    "reservation_id": 2,
+    "item": "Chicken Wings",
+    "price": 180
+  },
+  {
+    "reservation_id": 2,
+    "item": "Butter Naan",
+    "price": 40
+  }
+]

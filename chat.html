@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Chatbot</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: url('https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chat-container {
+            width: 400px;
+            max-width: 90%;
+            background: rgba(255,255,255,0.95);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        #chatBox {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
+            max-height: 500px;
+        }
+        #chatBox p { margin: 5px 0; }
+        #inputArea {
+            display: flex;
+            border-top: 1px solid #ddd;
+        }
+        #userInput {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+        #sendBtn {
+            padding: 10px 15px;
+            background: #00796b;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #sendBtn:hover {
+            background: #004d40;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div id="chatBox"></div>
+        <div id="inputArea">
+            <input type="text" id="userInput" placeholder="Type here...">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>

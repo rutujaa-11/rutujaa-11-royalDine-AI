@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="logo">🍽️ Royal Dine Restaurant</h1>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reservation.html">Reservation</a>
+        <a href="chat.html">Chatbot</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section class="reservation-section">
+    <h2>Make a Reservation</h2>
+
+    <form id="reservationForm" class="reservation-form">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <input type="number" id="guests" placeholder="No. of Guests" min="1" required>
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+        <button type="submit" class="btn">Book Table</button>
+    </form>
+
+    <p id="resultMessage"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
